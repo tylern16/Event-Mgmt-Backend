@@ -1,3 +1,4 @@
+//Comment
 package com.example.events_backend.Entities;
 
 import javax.persistence.Entity;
