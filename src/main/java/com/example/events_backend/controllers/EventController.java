@@ -56,6 +56,7 @@ public class EventController {
             Event.setDate(fixEvent.getDate());
             Event.setEventImage(fixEvent.getEventImage());
             Event.setCity(fixEvent.getCity());
+            Events.save(Event);
             return Event;
         });
 
